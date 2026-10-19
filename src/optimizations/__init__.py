@@ -1,0 +1,1 @@
+from .slim import remove_buried_triangles, remove_small_faces
