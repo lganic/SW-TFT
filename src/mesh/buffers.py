@@ -126,7 +126,7 @@ class WritableBuffer:
 
     def __init__(self, endian: str = "little"):
         self.buffer = bytearray()
-        self.endian = ParseableBuffer._get_endian(endian)
+        self.endian = ReadableBuffer._get_endian(endian)
 
     def __len__(self):
         return len(self.buffer)
